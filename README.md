@@ -14,10 +14,10 @@ The `i18n` plugin must be enabled; it loads first (`order: 0`).
 Install the release archive from a tag:
 
 ```bash
-cdx plugins install https://github.com/YouROK/cdx-lang-ru/releases/download/0.0.1/lang-ru-0.0.1.zip
+cdx plugins install https://github.com/YouROK/cdx-lang-ru/releases/download/0.0.2/lang-ru-0.0.2.zip
 ```
 
-Reload plugins, open the **Translations** page, and select `ru`.
+Reload plugins, open the **Language** page, and select `ru`.
 
 ## Layout
 
@@ -35,8 +35,8 @@ lang-ru/
 A tag push builds and publishes the zip:
 
 ```bash
-git tag 0.0.1
-git push origin 0.0.1
+git tag 0.0.2
+git push origin 0.0.2
 ```
 
 The workflow checks the manifest, the script syntax, the translation table, and the tag, then attaches `lang-ru-<tag>.zip` to the GitHub release.
