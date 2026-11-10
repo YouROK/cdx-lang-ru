@@ -1,0 +1,12 @@
+{
+  "id": "lang-ru",
+  "name": "Russian Translation",
+  "version": "0.0.1",
+  "description": "Russian interface translation for cdx: the web dashboard, plugin panels, JSON Schema settings, and permission prompts",
+  "author": "yourok",
+  "homepage": "https://github.com/YouROK/cdx-lang-ru",
+  "source_url": "https://github.com/YouROK/cdx-lang-ru",
+  "min_cdx_version": "0.1.0",
+  "entry": "main.js",
+  "order": 2000
+}
